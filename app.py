@@ -37,7 +37,7 @@ with st.sidebar:
         st.rerun()
 
 # Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="GROQ_API_KEY")
 
 # Memory
 if "messages" not in st.session_state:
