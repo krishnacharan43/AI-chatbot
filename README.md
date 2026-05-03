@@ -12,6 +12,7 @@ A modern AI chatbot with a **ChatGPT-like interface**, built using **Streamlit**
 
 ## 📸 Preview
 
+<img width="1916" height="1061" alt="Screenshot 2026-05-03 233631" src="https://github.com/user-attachments/assets/ff65de0a-1364-40d4-b108-306c06977f28" />
 
 
 ---
