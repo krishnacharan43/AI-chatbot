@@ -137,21 +137,6 @@ for i, msg in enumerate(messages):
 
 st.markdown("</div>", unsafe_allow_html=True)
 
-# ---------------- SHARE CHAT ----------------
-import json
-
-st.markdown("---")
-
-if st.button("🔗 Share Chat"):
-    chat_data = json.dumps(messages, indent=2)
-
-    st.download_button(
-        label="📥 Download Chat",
-        data=chat_data,
-        file_name="chat.json",
-        mime="application/json"
-    )
-
 # ---------------- INPUT ----------------
 user_input = st.chat_input("Type your message...")
 
