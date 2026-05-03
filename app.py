@@ -35,7 +35,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- API ----------------
-client = Groq(api_key="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")
+client = Groq(api_key="GROQ_API_KEY")
 # ---------------- LOAD EMBEDDING MODEL ----------------
 @st.cache_resource
 def load_embedder():
