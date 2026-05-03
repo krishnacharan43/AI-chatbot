@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ### 3. Set API Key
 
 ```bash
-setx GROQ_API_KEY "your_api_key_here"
+setx GROQ_API_KEY "GROQ_API_KEY"
 ```
 
 Restart terminal after this step.
@@ -90,8 +90,8 @@ python -m streamlit run app.py
 ## 🔐 Environment Variables
 
 | Variable     | Description  |
-| ------------ | ------------ |
-| GROQ_API_KEY | Your API Key |
+| ------------ | ------------ | 
+| GROQ_API_KEY | GROQ_API_KEY |
 
 ---
 
