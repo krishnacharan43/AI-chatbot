@@ -6,8 +6,7 @@ A modern AI chatbot with a **ChatGPT-like interface**, built using **Streamlit**
 
 ## 🌐 Live Demo
 
-👉 https://ai-chatbot-jncpedrqp5jje9zgqtpr8g.streamlit.app/
-
+👉 https://ai-chatbot-lite.streamlit.app/
 ---
 
 ## 📸 Preview
