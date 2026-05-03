@@ -55,8 +55,7 @@ ai-chatbot/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/krishnacharan43/ai-chatbot.git
-cd ai-chatbot
+https://github.com/krishnacharan43/AI-chatbot.git
 ```
 
 ---
