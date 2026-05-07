@@ -9,6 +9,24 @@ from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
+import streamlit as st
+from groq import Groq
+
+client = Groq(
+    api_key=st.secrets["GROQ_API_KEY"]
+)
+
+response = client.chat.completions.create(
+    model="llama-3.1-8b-instant",
+    messages=[
+        {
+            "role": "user",
+            "content": "Hello"
+        }
+    ]
+)
+
+print(response.choices[0].message.content)
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(page_title="AI Agent", page_icon="🤖", layout="wide")
